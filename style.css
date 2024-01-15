@@ -1,0 +1,71 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  padding: 120px;
+  font-family: cursive;
+
+}
+
+*{box-sizing: border-box; margin: 0;}
+
+.contenitore{
+  width: 80%;
+  height: 110%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 25px;
+  padding: 50px 80px;
+  margin: auto;
+}
+
+header{
+  text-align: center;
+}
+
+#logo{
+  width:250px;
+}
+
+h1{
+  color: #7CFC00;
+  margin-bottom: 5px;
+}
+
+.nav-bar{
+  background-color: #7CFC00;
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.row{font-size: 30px;}
+
+.addres{font-size: 20px;}
+
+.charge1{background-color: orange;
+  height: 25px;
+  width: 300px;
+  border-radius: 5px;
+  border-color: orange;
+}
+
+.state{
+  font-size: 18px;
+}
+
+.charge2{
+  background-color: #7CFC00;
+  height: 25px;
+  width: 550px;
+  border-radius: 5px;
+  border-color: #7CFC00;
+}
+
+.charge3{
+  background-color: red;
+  height: 25px;
+  width: 150px;
+  border-radius: 5px;
+  border-color: red;
+}
